@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #faf7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #af1f1f;
+}
+
+.dashboard {
+    margin-top: 20px;
+}
+
+.info p {
+    font-size: 1.2rem;
+}
+
+#stakeAmount {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#connectWallet {
+    background-color: #28a745;
+}
+
+#connectWallet:hover {
+    background-color: #218838;
+}
+
+.stake-section {
+    margin-top: 20px;
+}
+
+input, button {
+    border-radius: 5px;
+    font-size: 1rem;
+}

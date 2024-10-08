@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeFi Staking Platform</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DeFi Staking Platform</h1>
+        <div id="wallet-section">
+            <p id="walletAddressDisplay">No wallet connected</p>
+            <button id="connectWallet">Connect Wallet</button>
+        </div>
+
+        <div class="dashboard">
+            <h2>Dashboard</h2>
+            <div class="info">
+                <p>Staked Amount: <span id="stakedAmount">0</span> Tokens</p>
+                <p>Interest Earned: <span id="interestEarned">0</span> Tokens</p>
+            </div>
+            <div class="stake-section">
+                <input type="number" id="stakeAmount" placeholder="Enter amount to stake" min="0">
+                <button id="stakeButton">Stake Tokens</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/frontend.js"></script>
+</body>
+</html>
